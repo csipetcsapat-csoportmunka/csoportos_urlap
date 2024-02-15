@@ -21,7 +21,6 @@ a {
     
     text-decoration: none;
     color: white;
-    border: 1px solid white;
     
 }
 
@@ -37,4 +36,19 @@ nav {
 }
 body {
     background-image: url(kepek/black.png);
+}
+
+.jelszo {
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+}
+
+.kuldes {
+    width: 100px;
 }
