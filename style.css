@@ -1,0 +1,39 @@
+main {
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+header {
+    height: 450px;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.felsorolas {
+    margin: auto;
+    display: flex;
+    gap: 70px;
+}
+nav {
+    margin: auto;
+    max-width: 56.5%;
+    border: 1px solid white;
+}
+body {
+    background-image: url(kepek/black.png);
+}
