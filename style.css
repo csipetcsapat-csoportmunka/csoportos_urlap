@@ -7,6 +7,7 @@ main {
 header {
     height: 450px;
     text-align: center;
+    max-width: auto;
     
 }
 nav ul {
@@ -50,5 +51,11 @@ input {
 }
 
 .kuldes {
-    width: 100px;
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+}
+
+footer {
+    color: white;
 }
