@@ -8,37 +8,40 @@
     <link rel="stylesheet" href="style.css">
     <title>Pfiffer Attila</title>
 </head>
-<main>
-    <body>
-        <header>
-            <img src="kepek/lolplakat.jpg" alt="plakat">
-        </header>
-        <nav>
-            <ul>
-                <div class = "felsorolas">
-                    
-                    <li><a href="index.html">Bejelentkezés</a></li>
-                    <li><a href="#">Kérdések</a></li>
-                    <li><a href="velemeny.html">Vélemény</a></li>
-                    
+<body>
+    <main class = "container">
+        <div>
+        
+            <header>
+                <img src="kepek/lolplakat.jpg" alt="plakat">
+            </header>
+            <nav>
+                <ul>
+                    <div class = "felsorolas">
+                        
+                        <li><a href="index.html">Bejelentkezés</a></li>
+                        <li><a href="#">Kérdések</a></li>
+                        <li><a href="velemeny.html">Vélemény</a></li>
+                        
+                    </div>
+                </ul>
+            </nav>
+            <article>
+                <div class = "container">    
+                    <h2>Bejelentkezés</h2>
+
+                    <form action="/action_page.php">
+                        <label for="fname">Felhasználónév: </label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br>
+                        <label for="lname">Jelszó: </label><br>
+                        <input type="password" id="lname" name="lname" value="Doe"><br><br>
+                        <input class = "kuldes" type="submit" value="Bejelentkezés" href = "kerdesek.html" id = "kuldes">
+                    </form> 
                 </div>
-            </ul>
-        </nav>
-        <article>
-            <div class = "jelszo">    
-                <h2>Bejelentkezés</h2>
-
-                <form action="/action_page.php">
-                    <label for="fname">Felhasználónév: </label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Jelszó: </label><br>
-                    <input type="password" id="lname" name="lname" value="Doe"><br><br>
-                    <input class = "kuldes" type="submit" value="Bejelentkezés" href = "kerdesek.html" id = "kuldes">
-                </form> 
-            </div>
-        </article>
-    </body>
-</main>
-
+            </article>
+    
+        </div>
+    </main>
+<body>
     
 </html>

@@ -15,6 +15,7 @@ nav ul {
     text-decoration: none;
     list-style-type: none;
     font-size: 25px;
+    max-width: auto;
 }
 
 
@@ -37,9 +38,10 @@ nav {
 }
 body {
     background-image: url(kepek/black.png);
+    max-width: auto;
 }
 
-.jelszo {
+.container {
     color: white;
     height: 30px;
     font-size: 20px;
@@ -53,9 +55,31 @@ input {
 .kuldes {
     width: 140px;
     height: 40px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 footer {
     color: white;
 }
+
+.w3-container {
+    font-size: 23px;
+    color: white;
+}
+
+.form-control {
+    text-align: justify;
+    width: 1000px;
+    height: 300px;
+}
+
+.container {
+    margin: auto;
+}
+
+.koszonjuk {
+    color: white;
+    font-size: 15px;
+}
+
+
