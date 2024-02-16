@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 main {
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     
 }
@@ -7,15 +11,19 @@ main {
 header {
     height: 450px;
     text-align: center;
-    max-width: auto;
+    margin: auto;
+    
     
 }
+header img {
+    width: 100%;
+}
+
 nav ul {
     
     text-decoration: none;
     list-style-type: none;
     font-size: 25px;
-    max-width: auto;
 }
 
 
@@ -33,7 +41,6 @@ a {
 }
 nav {
     margin: auto;
-    max-width: 56.5%;
     border: 1px solid white;
 }
 body {
