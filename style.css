@@ -52,6 +52,7 @@ body {
     color: white;
     height: 30px;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 input {
@@ -63,6 +64,7 @@ input {
     width: 140px;
     height: 40px;
     font-size: 20px;
+    margin: 10px;
 }
 
 footer {
@@ -87,6 +89,14 @@ footer {
 .koszonjuk {
     color: white;
     font-size: 15px;
+}
+
+.regisztracio {
+    text-decoration: underline;
+}
+
+#ename {
+    margin-top: 0px;
 }
 
 

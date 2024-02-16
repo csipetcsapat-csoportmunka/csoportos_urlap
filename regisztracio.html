@@ -30,14 +30,16 @@
             </nav>
             <article>
                 <div class = "container">    
-                    <h2>Bejelentkezés</h2>
+                    <h2>Regisztráció</h2>
 
                     <form action="/action_page.php">
                         <label for="fname">Felhasználónév: </label><br>
                         <input type="text" id="fname" name="fname" value="John"><br>
                         <label for="lname">Jelszó: </label><br>
                         <input type="password" id="lname" name="lname" value="Doe"><br><br>
-                        <input class = "kuldes" type="submit" value="Bejelentkezés" href = "kerdesek.html" id = "kuldes"> <a class = "regisztracio" href = "regisztracio.html">Nincs fiókja?</a>
+                        <label id = "ename" for="lname">E-mail: </label><br>
+                        <input type="email" id="lname" name="lname" value="Doe"><br><br>
+                        <input class = "kuldes" type="submit" value="Regisztráció" href = "index.html" id = "kuldes"> <a class = "regisztracio" href = "regisztracio.html">Már van fiókja? Jelentkezzen be</a>
                     </form> 
                 </div>
             </article>
