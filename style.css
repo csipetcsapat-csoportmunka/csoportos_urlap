@@ -12,6 +12,7 @@ header {
     height: 450px;
     text-align: center;
     margin: auto;
+    width: 900px;
     
     
 }
@@ -46,6 +47,7 @@ nav {
 body {
     background-image: url(kepek/black.png);
     max-width: auto;
+    text-align: justify;
 }
 
 .container {
@@ -97,6 +99,10 @@ footer {
 
 #ename {
     margin-top: 0px;
+}
+
+.container-fluid {
+    background-image: url(kepek/black.png);
 }
 
 
