@@ -106,3 +106,32 @@ footer {
 }
 
 
+
+aside {
+    grid-area: s;
+}
+
+article {
+    grid-area: r;
+}
+
+footer {
+    grid-area: f;
+}
+
+nav {
+    grid-area: n;
+}
+
+
+@media screen and (max-width: 720px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "h"
+        "n"
+        "r";
+    }
+
+}
